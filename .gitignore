@@ -1,0 +1,31 @@
+
+C/cmake-build-debug/CMakeFiles/CMakeOutput.log
+*.txt
+C/cmake-build-debug/Makefile
+*.iml
+*.xml
+*.cbp
+*.cmake
+*.make
+*.internal
+*.rsp
+C/cmake-build-debug/CMakeFiles/Makefile2
+*.marks
+*.check_cache
+*.includecache
+*.bin
+C/cmake-build-debug/CMakeFiles/3.17.3/CompilerIdC/CMakeCCompilerId.c
+C/cmake-build-debug/CMakeFiles/C.dir/objects.a
+C/cmake-build-debug/CMakeFiles/C.dir/main.c.obj
+C/cmake-build-debug/CMakeFiles/3.17.3/CompilerIdC/a.exe
+*.ninja
+*.ninja
+*.db
+C/.vs/C/v16/.suo
+*.ipch
+C/.vs/CMake Overview
+*.sqlite
+*.log
+Python/encrypt/test
+Python/ML/Object_Detection/TF/models/
+Python/ML/Image Enlarge/neural-enhance/
