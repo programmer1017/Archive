@@ -12,7 +12,7 @@ Copyright 2019 이준혁. All rights reserved.
 line 35 else 구문을 처리를 다르게 해서 보완되었습니다.
 """
 
-num = input("소수인지 아닌지 알려면 수를 입력하세요> ")
+num = input("enter number> ")
 num = int(num)
 
 
