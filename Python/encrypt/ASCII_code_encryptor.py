@@ -1,4 +1,4 @@
-import pyperclip
+import pyperclip #you have to install pyperclip first
 while True:
     s = input("Enter value: ")
     l2 = [ord(c) for c in s]

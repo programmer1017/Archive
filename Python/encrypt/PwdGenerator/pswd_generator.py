@@ -49,3 +49,5 @@ def generate_password():
 
 generate_password()
 os.system('pause')
+
+#this is COOL!

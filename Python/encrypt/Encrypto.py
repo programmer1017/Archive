@@ -71,7 +71,7 @@ def main():
             yn()
         cryptogram_sentence = ""
         for anything in B:
-            num( anything )
+            num(anything)
         for qw in sen:
             if qw == " ":
                 print("Error... Sentence can't have space...")
@@ -162,3 +162,5 @@ def main():
 
 
 main()
+
+#this code looks very unproductive... 

@@ -2,11 +2,13 @@ from selenium import webdriver
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
+#first you need to import selenium
+#... and to import selenium, you need to run command "pip install selenium"
 
 usernameStr = 'put_your_email_here'
 passwordStr = 'put_your_password_here'
 
-browser = webdriver.Chrome("E:\Programming\Python\Autologin\chromedriver.exe")
+browser = webdriver.Chrome("YOUR_PATH_TO_CHROMEDRIVER.EXE")
 
 browser.get(('https://accounts.google.com/ServiceLogin?'
              'service=mail&continue=https://mail.google'
