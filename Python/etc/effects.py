@@ -7,7 +7,7 @@ print('Press q to play NASA quinadr tone, press a to play airplane seatbelt soun
 
 def main():
     mixer.init()
-    mixer.music.load('e:\\NASA_tone.mp3')
+    mixer.music.load('E:\\GithubRelease\\fastful\\Python\\etc\\NASA_tone.mp3')
     mixer.music.play()
 
 while True:  # making a loop
