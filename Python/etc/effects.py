@@ -3,7 +3,7 @@ environ['PYGAME_HIDE_SUPPORT_PROMPT'] = '1'
 
 from pygame import mixer  # Load the popular external library
 import keyboard
-print('Press q to play, w to exit.')
+print('Press q to play NASA quinadr tone, press a to play airplane seatbelt sound effect, and w to exit.')
 
 def main():
     mixer.init()
