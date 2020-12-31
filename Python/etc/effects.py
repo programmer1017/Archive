@@ -3,7 +3,7 @@ environ['PYGAME_HIDE_SUPPORT_PROMPT'] = '1'
 
 from pygame import mixer  # Load the popular external library
 import keyboard
-print('Press q to play NASA quinadr tone, press a to play airplane seatbelt sound effect, press l to play airplane landing sound effect, and w to exit.')
+print('Press q to play NASA quinadr tone, press a to play airplane seatbelt sound effect, press s to play airplane landing sound effect, and w to exit.')
 
 def NASA():
     mixer.init()
@@ -12,7 +12,7 @@ def NASA():
 
 def Airplane():
     mixer.init()
-    mixer.music.load('E:\\GithubRelease\\fastful\Python\etc\\Airplane_dingdong_sound.mp3')
+    mixer.music.load('E:\\GithubRelease\\fastful\\Python\\etc\\Airplane_dingdong_sound.mp3')
     mixer.music.play()
 
 def airplane_landing():
@@ -28,7 +28,7 @@ while True:  # making a loop
             break
         if keyboard.is_pressed('a'):
             Airplane() #then play a mp3 file
-        if keyboard.is_pressed('l'):
+        if keyboard.is_pressed('s'):
             airplane_landing()
     except:
         pass
