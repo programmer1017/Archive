@@ -12,5 +12,4 @@ def main():
         else:
             x = x+1
 
-
 main()
