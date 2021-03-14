@@ -18,9 +18,11 @@ b = random.randint(min_str, max_str)
 c = random.randint(min_uni, max_uni)
 list_of_numbers = ['1', '2', '3', '4', '5', '6', '7', '8', '9', '0']
 
-list_of_alphabets = ['q', 'w', 'r', 't', 'y', 'u', 'i', 'o', 'p', 'a', 's', 'd', 'f', 'g', 'h', 'j', 'k', 'l', 'z','x', 'c', 'v', 'b', 'n', 'm', 'Q', 'W', 'R', 'T', 'Y', 'U', 'I', 'O', 'P', 'A', 'S', 'D', 'F', 'G', 'H', 'J', 'K', 'L', 'Z', 'X', 'C', 'V', 'B', 'N', 'M']
+list_of_alphabets = ['q', 'w', 'r', 't', 'y', 'u', 'i', 'o', 'p', 'a', 's', 'd', 'f', 'g', 'h', 'j', 'k', 'l', 'z', 'x',
+                     'c', 'v', 'b', 'n', 'm', 'Q', 'W', 'R', 'T', 'Y', 'U', 'I', 'O', 'P', 'A', 'S', 'D', 'F', 'G', 'H',
+                     'J', 'K', 'L', 'Z', 'X', 'C', 'V', 'B', 'N', 'M']
 
-list_of_unique_charaters = ['!', '?', '^', '<','>', '@', '#', '$', '%', '*', '(', ')', '-', '+']
+list_of_unique_charaters = ['!', '?', '^', '<', '>', '@', '#', '$', '%', '*', '(', ')', '-', '+']
 
 pwd_abc = []
 pwd_123 = []
@@ -38,20 +40,20 @@ def check():
         print('Something went wrong... Try again.')
         check()
 
+
 def generate_password():
     global a, b, c
     for cat in range(a):
         added_list_of_numbers = random.choice(list_of_numbers)
         pwd_123.append(added_list_of_numbers)
-    
+
     for dog in range(b):
         added_list_of_alphabets = random.choice(list_of_alphabets)
         pwd_abc.append(added_list_of_alphabets)
-    
+
     for bird in range(c):
         added_unique = random.choice(list_of_unique_charaters)
         pwd_unique.append(added_unique)
-
 
     final_list = pwd_unique + pwd_abc + pwd_123
     random.shuffle(final_list)

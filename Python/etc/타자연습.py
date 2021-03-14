@@ -25,3 +25,6 @@ end = time.time()  # 종료 시간을 기록
 et = end - start  # 실제로 걸린 시간을 계산
 et = format(et, ".2f")  # 소수점 둘째 자리까지만 표시되도록 포맷팅
 print("타자 시간 :", et, "초")
+
+# this program is not belong to me.
+# Source: Internet
