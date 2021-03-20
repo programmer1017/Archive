@@ -2,8 +2,9 @@ from selenium import webdriver
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
-#first you need to import selenium
-#... and to import selenium, you need to run command "pip install selenium"
+
+# first you need to import selenium
+# ... and to import selenium, you need to run command "pip install selenium"
 
 usernameStr = 'put_your_email_here'
 passwordStr = 'put_your_password_here'
@@ -31,4 +32,4 @@ password.send_keys(passwordStr)
 
 signInButton = browser.find_element_by_id('passwordNext')
 signInButton.click()
-#auto_login
+# auto_login
